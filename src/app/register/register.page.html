@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Registrar
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- Inputs with labels -->
+  <ion-item>
+    <ion-label position="floating">Nombre</ion-label>
+    <ion-input type="text"  [(ngModel)]="full_name"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Usuario</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Contraseña</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Confirmar Contraseña</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+  <div>
+  <button ion-button full>Registrar</button>
+
+  </div>
+  
+
+
+  <ion-img style="width: 80px; height: 80px;" src="/assets/user.png"></ion-img>
+</ion-content>
